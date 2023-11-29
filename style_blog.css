@@ -105,7 +105,7 @@
     margin-top: 0%;
 }
 
-.content {
+.contentz {
     display: none;
 }
 
@@ -289,13 +289,15 @@ tbody td:hover {
         font-size:medium ;
         width: auto;
         padding:5%;
+        margin-left: 5%;
+        margin-right: 5%;
        
     }
     .days img{
         
         margin-top: 5%;
         width: 75%;
-        margin-left: 10%;
+        margin-left: 13%;
     }
     .days h1{
         line-height: 120%;
@@ -344,9 +346,10 @@ tbody td:hover {
         
     }
   
-    .content{
+    .contentz{
         align-items: center;
         padding-right:0% ;
+        padding-left: 4%;
        
     }
 

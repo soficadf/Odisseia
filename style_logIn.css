@@ -20,13 +20,13 @@ input{
 #bigLog 
 {
     font-size: 200%;  width: 20%; 
-    margin-top: 10%;
+    margin-top: 15%;
     color:#8D7268;
     background-color: #C0D8CC;
     border-radius: 8%;
     text-align: center;
     margin-left: 40%;
-    font-family: 'Cooper Black', sans-serif;
+    font-weight: bold;
    
   
 }
@@ -48,7 +48,7 @@ label{
     color: #8D7268; 
     padding: 1% 4%; 
     border-radius: 8%; 
-    font-family: 'Cooper Black', sans-serif;
+    font-weight: bold;
     border:none; 
       
 }

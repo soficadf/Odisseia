@@ -51,6 +51,7 @@
 @media screen and (max-width: 768px){
   input{
     margin-top: 5%;
+    font-size: 150%;
   }
 
   #icon{

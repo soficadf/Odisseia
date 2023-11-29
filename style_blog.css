@@ -17,10 +17,6 @@
 .main{
     display: flex; flex-direction: row;
    
-        background-image: url('img/prueba.png');
-        background-size: cover;
-        background-repeat: no-repeat;
-    
 }
 .intro{
    
@@ -247,7 +243,7 @@ tbody td:hover {
 
   @media screen and (max-width: 768px){
     .main{
-    
+        margin-bottom: -10%;
      flex-direction: column;
     }
 
@@ -263,6 +259,9 @@ tbody td:hover {
         order: 2;
        
     }
+
+   
+
     #introD{
         display: none;
     }
@@ -272,7 +271,11 @@ tbody td:hover {
        margin-left: 15%;
        order: 1;
        font-size: 65%;
+    }
 
+    .box2 img{
+        width: 150%;
+        margin-left: -20%;
     }
 
     .box2 h1{
@@ -281,7 +284,7 @@ tbody td:hover {
 
 
     #song{
-       height: 50%;
+       height: auto;
     }
 
     .days{
@@ -357,6 +360,10 @@ tbody td:hover {
         font-size: 200%;
     }
 
+    .tableContainer{
+        margin:5%;
+    }
+
     th {
         font-size: 100%;
     }
@@ -367,6 +374,11 @@ tbody td:hover {
         margin:5%;
        
         
+  }
+
+  .gallery{
+    margin: 5%;
+    width: 90%;
   }
 
   .photo:hover {

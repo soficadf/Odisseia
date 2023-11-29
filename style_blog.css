@@ -1,0 +1,415 @@
+.title{
+    color:white;
+     font-family: 'Segoe Script', cursive;
+    margin-left: 20%; 
+    margin-top: 3%; 
+    margin-bottom: 1%;
+    font-size: 280%;
+    display:flex;
+}
+
+.title img{
+    width: 10%;
+    height: 10%;
+    align-self: center;
+}
+
+.main{
+    display: flex; flex-direction: row;
+   
+        background-image: url('prueba.png');
+        background-size: cover;
+        background-repeat: no-repeat;
+    
+}
+.intro{
+   
+    margin-left: 10%;
+    width: 30%;
+    padding: 3%;
+    background-color: rgba(250, 250, 250, 0.3);
+    font-size:larger;
+    line-height: 150%;
+    height: 45%;
+    color:#8D7268;
+    box-shadow: 0 0 20px rgba(0,0,0,0.2);
+    font-family:'Rockwell', sans-serif;
+}
+
+#introD{
+    display: block;
+}
+
+.intro img{
+   
+    width: 120%;
+    margin-left: 12%;
+}
+
+
+.box2{
+    color:white;
+    font-family: 'Segoe Script', cursive;
+    font-size: 100%;
+    width: 40%;
+   
+    margin-top: -8%;
+ 
+}
+
+.box2 img{
+    width: 120%;
+    margin-top: 12%;
+    
+   
+}
+
+.box2 h1{
+    padding-left: 25%; text-align: center; margin-top: -80%; margin-bottom: 55%;
+}
+
+#song{
+    border-radius:12px;
+    width:100%;
+    height:202px;
+    padding-left: 8%;
+}
+
+.days{
+    margin:10%;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    font-size:larger;
+    line-height: 170%;
+    font-family:'Rockwell', sans-serif;
+    color:#8D7268;
+    width: 80%;
+    background-color:rgba(250, 250, 250, 0.3) ;
+    padding-right: 5%;
+   display: flex;
+   box-shadow: 0 0 20px rgba(0,0,0,0.2);
+}
+
+.days h1{
+    color:white;
+    font-family: 'Segoe Script', cursive;
+    font-size: 300%;
+    margin-left: 15%;
+    margin-right: 0%;
+    line-height: 100%;
+}
+
+.days img{
+    width: 30%;
+    float: left;
+    margin-top: 0%;
+}
+
+.content {
+    display: none;
+}
+
+  .visible {
+    display: block;
+    
+  }
+
+#content2 img{
+width: 25%;
+padding-left: 3%;
+margin-right: 3%;
+margin-top: -1%;
+
+}
+
+#content2 h1{
+    font-size: 280%;
+}
+#content7 img{
+    margin-right: 3%; width: 25%; margin-bottom: 2%;
+}
+
+
+
+#video{
+   float: left; margin-top: 1%; margin-right: 3%; 
+   width:25%; 
+}
+
+#leftA{
+    width: 4%; height: 5%;  margin-top:15%; margin-left: -2%;  float: left;
+}
+
+#rightA{
+    width: 4%; height: 5%;   margin-right: -8%; margin-top: 15%; float: right;
+}
+
+
+.tableContainer {
+    margin: 10%;
+    margin-top: 5%;
+    
+}
+
+.tableContainer h1{
+    color:white;
+    font-family: 'Segoe Script', cursive;
+    font-size: 300%;
+}
+
+table {
+	width: 100%;
+	border-collapse: collapse;
+	box-shadow: 0 0 20px rgba(0,0,0,0.2);
+    text-align: center;
+}
+
+
+td {
+	padding: 3%;
+	color:#8D7268;
+    font-family:'Rockwell', sans-serif;
+}
+
+th {
+	
+    font-family: 'Segoe Script', cursive;
+    color:#8D7268;
+    background-color: white;
+    font-size: 160%;
+    padding: 3%;
+}
+
+
+
+tbody td:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+
+.gallery{
+    margin:10%;
+    margin-top: 0%;
+    width: 80%;
+    background-color:rgba(250, 250, 250, 0.3) ;
+    color:white;
+    font-family: 'Segoe Script', cursive;
+   
+    display:flex;
+    justify-content:center;
+    flex-wrap:wrap;
+    align-items: center;
+    box-shadow: 0 0 20px rgba(0,0,0,0.2);
+}
+
+
+  .gallery img{
+        transition: transform 0.5s ease-in-out;
+        width:25%;
+        height: 100%;
+        margin:3%;
+        overflow:hidden;
+        border-radius:5px;
+        box-shadow: 0 0 20px rgba(0,0,0,0.3);
+        
+        
+  }
+
+  .gallery h1
+  { margin-right:25% ;
+    align-self: center;
+    text-align: center;
+    margin-left:5% ;
+    font-size: 490%;}
+
+  .photo:hover {
+    transform: scale(1.7);
+}
+
+  .informacion {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+    text-align: center;
+    color: white;
+}
+
+.imagen-container:hover .informacion {
+    opacity: 1;
+}
+
+#icon{
+    display: none;
+}
+
+  @media screen and (max-width: 768px){
+    .main{
+    
+     flex-direction: column;
+    }
+
+    .title{
+        font-size: 150%;
+        
+    }
+
+    .intro{
+        width: 50%;
+        margin-left: 20%;
+        margin-right: 0%;
+        order: 2;
+       
+    }
+    #introD{
+        display: none;
+    }
+
+    .box2 {
+       width: 60%;
+       margin-left: 15%;
+       order: 1;
+       font-size: 65%;
+
+    }
+
+    .box2 h1{
+        display: none;
+    }
+
+
+    #song{
+       height: 50%;
+    }
+
+    .days{
+        margin-top: 10%;
+        font-size:medium ;
+        width: auto;
+        padding:5%;
+       
+    }
+    .days img{
+        
+        margin-top: 5%;
+        width: 75%;
+        margin-left: 10%;
+    }
+    .days h1{
+        line-height: 120%;
+        font-size: 230%;
+        text-align: center;
+        margin-left: 0%;
+    }
+
+    #content2 img{
+        margin-top: 5%;
+        width: 65%;
+        margin-left: 15%;
+        margin-bottom: 5%;
+    }
+    #content2 h1{
+        font-size: 220%;
+        
+    }
+
+    #content7 img{
+     width: 65% ;
+     margin-left: 15%;
+     margin-bottom: 5%;
+     
+    }
+
+    #content7 h1{
+        font-size: 220%;
+    }
+
+    #video{
+        float: left; margin-top: 1%; margin-right: 3%; margin-left: 20%;
+        width:60%; margin-bottom: 4%;
+     }
+
+    #leftA{
+        width: 10%;
+        margin-top: 88%;
+        margin-left: -8%;
+    }
+
+    #rightA{
+        width: 10%;
+        margin-top: 88%;
+        margin-left: 1%;
+        
+    }
+  
+    .content{
+        align-items: center;
+        padding-right:0% ;
+       
+    }
+
+    .tableContainer h1{
+        font-size: 200%;
+    }
+
+    th {
+        font-size: 100%;
+    }
+
+
+    .gallery img{
+        width:40%;
+        margin:5%;
+       
+        
+  }
+
+  .photo:hover {
+    transform: scale(1.8);
+}
+
+.gallery h1{
+    font-size: 190%;
+    align-self: center;
+    text-align: center;
+   
+    margin-right: 0%;
+
+}
+
+#icon{
+ display:block;
+ margin-left: 15%;
+ color:#8D7268;
+ font-family: 'Segoe Script', cursive;
+
+
+}
+#icon img{
+    width: 8%;
+    float: left;
+    margin-right: 3%;
+}
+      
+    
+
+  }
+
+  @media screen and (min-width: 768px)and (max-width: 1072px){
+    .box2 h1{
+        font-size: 120%;
+    }
+
+    .intro{
+        margin-bottom: 5%;
+    }
+
+    .gallery h1{
+     font-size: 360%;
+     
+    }
+   
+
+  }

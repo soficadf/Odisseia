@@ -1,0 +1,127 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Rockwell', sans-serif;
+    color: #8D7268;
+    background-color: #D7CDCC; 
+    height: 100%;
+    width: 100%;
+  
+  }
+
+  .content{
+    background-image: url('back.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+} 
+
+.navbar {
+    display: flex;
+    background-color: white;
+    width: 100%;
+    height:min-content;
+    position: fixed;
+    top: 0;   
+    justify-content:left;
+}
+
+.navbar ul img{
+    width: 100px;
+}
+
+.navbar a {
+    text-decoration: none; 
+    color: #8D7268;
+    text-align: center;
+    font-family: 'Cooper Black', sans-serif;
+}
+
+.navbar ul {
+    list-style-type: none;
+    justify-content: space-between;
+    display: flex;
+    width: 90%;
+    margin: 0%;
+    padding: 1%;
+}
+
+.navbar li { 
+    align-self: center;
+}
+
+.login-button {
+    background-color: #C0D8CC;
+    border: none;
+    padding: 40%;
+    width: 300%;
+    border-radius: 8%;
+}
+
+.boxTitle{
+    margin: 10%;
+    text-align: center;
+    font-size: 200%;
+    margin-bottom: 0%;
+}
+
+
+
+footer{
+    background-color: #8D726860;
+    margin-top: 5%;
+    width: 100%;
+    padding-top: 2%;
+    padding-bottom: 3%;
+    color: white;
+    text-align: center;
+}
+
+footer a{
+    color:white
+}
+
+
+
+
+
+@media screen and (max-width: 768px){
+
+    .navbar{
+        position:static;
+        justify-content: center;
+    }
+    
+    .navbar li{
+        margin-bottom: 3%;
+        
+    }
+    .navbar ul{
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    .navbar ul img{
+        width: 20%;
+        margin-left: 40%;
+    }
+
+    .login-button{
+        margin-left: -100%;
+    }
+  
+
+     .contact-info{
+        margin-left: 7%;
+        font-size: 100%;
+        margin-top: 5%;
+    }
+    
+    .copyright{
+        margin-left: 0;
+        margin-top: 10%;
+    }
+    
+    .last-updated{
+        margin-left: 0%;
+    }
+
+}

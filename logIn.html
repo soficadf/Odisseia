@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Odisseia_LogIn</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="style_logIn.css">
+   
+       <script src="script.js">getDate()</script>
+
+
+</head>
+<body>
+    <div>
+      <div class="navbar">
+    
+        <ul>
+          <li><a href="home.html"><img src="logo.png" alt="Logo" ></a></li>
+          <li><a href="inspiration.html">Inspiration.</a></li>
+          <li><a href="logIn.html">Your Blogs.</a></li>
+          <li><a href="gallery.html">Gallery.</a></li>
+          <li><a href="logIn.html">Create.</a></li>
+          <li><button class="login-button"><a href="logIn.html">Log In</a></button></li>
+       </ul>
+     
+      </div>
+        
+      <div class="content">
+
+       <div id="bigLog">
+         <p>Log In</p>
+       </div>
+
+       <div id="login">
+        <form action="home.html" method="post"  onsubmit="onProgress()">
+
+          <div style="margin-bottom: 5%;">
+              <label for="user">User:</label>
+              <input type="email" id="user" name="user" required>
+          </div>
+          <div>
+              <label for="password">Password:</label>
+              <input type="password" id="password" name="password" required>
+          </div>
+
+          <div class="box">
+            <p>Do you not remember your password? <a href="logIn.html" onclick="onProgress()">Click here</a></p>
+            <button type="submit">Enter</button>        
+          </div>
+        </form>
+
+          <div class="box2">
+            <p>Don't you have an account yet? <a href="signUp.html">Sign Up</a></p>
+          </div>
+
+  
+  
+    </div>
+
+  </div>
+
+    <footer>
+      <div class="contact-info">
+        <p>Contact us:  <a href="mailto:odisseiahelp@odisseia.com">odisseiahelp@odisseia.com</a></p>
+       
+      </div>
+    
+      <div class="copyright">
+        &copy; 2023 Odisseia. Sofía Alejandra Cadenas Fernández. All rights reserved.
+        <p>This site uses cookies. Please refer to our <a href="home.html" onclick="onProgress()">cookies policy</a></p>
+      </div>
+      <div class="last-updated" id="lastupdated">Last updated:</div>
+    
+    </footer>
+    </div>
+    
+    <script>
+      updateDate();
+    </script>
+</body>
+</html>

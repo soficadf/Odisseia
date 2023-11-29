@@ -1,0 +1,172 @@
+
+
+
+.welcome{
+    width: 80%;
+    margin-left: 14%;
+    margin-top: 5%;
+}
+.welcome img{
+    display: flex;
+    transition: transform 0.4s;
+    width: 100%;
+   
+}
+
+#odisseia {
+    height: 20%;
+    width: 40%;
+    float: left;
+    margin-top: 10%;
+    margin-left: 10%;
+    margin-bottom: 5%;
+}
+
+ #capture{
+    height: 10%;
+    width: 30%;
+    float: right;
+    margin-top: 9%;
+    margin-right: 15%;
+ } 
+
+ #share{
+    height: 8%;
+      width: 25%;
+      float: right;
+      margin-top: -4%;
+      margin-right: 25%;
+ }
+
+
+.welcome  img:hover {
+    transform: rotate(3deg) scale(1.2);
+  }
+
+  
+.button {
+    background-color: #FFFFFF; 
+    margin-left: 22%;
+    color: #8D7268; 
+    padding: 1% 4%; 
+    border-radius: 8%; 
+    font-family: 'Cooper Black', sans-serif; 
+    font-size: 210%; 
+    width: 22%;
+    text-decoration: none;
+  }
+
+.box1{
+    display: flex;
+    margin: 10%;
+    font-family: 'Rockwell', sans-serif; 
+    color: #8D7268;
+}
+
+
+.card{
+    background-color: white;
+    width: 30%;
+    justify-content: center;
+    text-align: center;
+    padding: 2%;
+    margin: 2%;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 10%;
+    font-size: 150%;
+    line-height: 170%;
+
+}
+
+.card img{
+    width: 30%;  
+}
+
+.card a{
+    text-decoration: none;
+    color:#8D7268;
+    background-color:#D7CDCC; 
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 10%;
+    padding: 4%;
+    display: none;
+
+}
+
+.card:hover img{
+  display:none;
+}
+
+.card:hover a{
+ display: block;
+}
+
+.box2{
+    margin-left:20%;
+    margin-right: 20%; 
+    margin-top: 5%;
+    padding: 2%;
+    font-size:180%;
+    line-height: 150%;
+    color:#8D7268;
+    font-family:'Rockwell', sans-serif;
+    display:flex;
+    align-items: center;
+    text-align: center;
+    border: 3px solid white;
+    border-radius: 6%;
+}
+
+.box2 img{
+    width: 60%;
+    transition: transform 0.3s ease-in-out;
+}
+
+.box2 img:hover{
+    transform: scale(1.2);
+}
+
+
+@media screen and (max-width: 940px){
+#odisseia{
+    width: 60%;
+    margin-top: 15%;
+    margin-bottom: 0%;
+ } 
+
+ #capture{
+    margin-top:-20% ;
+    width: 38%;
+ }
+
+ #share{
+    margin-left: 6%;
+    margin-right: 0%;
+    margin-bottom: 5%;
+ }
+
+.button{
+    width: 35%;
+    margin-left: 30%
+ }
+
+
+ .box1{
+    flex-direction: column;
+   
+
+ } 
+
+ .card{
+    width: 70%;
+    margin-left: 15%;
+ }
+
+.box2{
+ display: block;
+}
+
+.box2 img{
+    width: 70%;
+}
+}

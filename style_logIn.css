@@ -1,0 +1,86 @@
+#login{
+    background-color: #8D726860;
+    width: 40%;
+    height: auto; 
+    padding: 4% 10% ;
+    margin:  -2%  20% 20% ;
+    color:white; 
+   
+}
+
+input{
+    background-color: #8D7268 ; 
+    border: none;
+    font-size:150%;  
+    border-radius: 8%;
+    color: white;
+}
+
+
+#bigLog 
+{
+    font-size: 200%;  width: 20%; 
+    margin-top: 10%;
+    color:#8D7268;
+    background-color: #C0D8CC;
+    border-radius: 8%;
+    text-align: center;
+    margin-left: 40%;
+    font-family: 'Cooper Black', sans-serif;
+   
+  
+}
+
+label{
+    font-size: 180%; margin-right: 5%;
+}
+
+.box p{
+     margin-bottom: 5%;
+     font-size: 130%;
+}
+
+.box button{
+    font-size: 120%; 
+    height: 20%; 
+    margin-left: 40%;
+    background-color: #FFFFFF; 
+    color: #8D7268; 
+    padding: 1% 4%; 
+    border-radius: 8%; 
+    font-family: 'Cooper Black', sans-serif;
+    border:none; 
+      
+}
+
+.box2 p{
+   text-align: center;
+   margin-top: 8%;
+   font-size: 130%;
+}
+
+ #login a{
+   color:#C0D8CC;
+}
+
+@media screen and (max-width: 768px){
+
+    #bigLog{
+        width: 40%;
+        margin-left: 30%;
+    }
+
+input{
+    font-size: 130%;
+}
+
+#login{
+    padding: 8%;
+    margin-left: 8%;
+    width: 70%;
+    
+}
+
+
+
+}

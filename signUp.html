@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Odisseia_LogIn</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="style_logIn.css">
+   
+       <script src="script.js"> getDate()</script>
+
+
+</head>
+<body>
+    <div style="width: 100%;">
+      <div class="navbar">
+    
+        <ul>
+          <li><a href="home.html"><img src="logo.png" alt="Logo" ></a></li>
+          <li><a href="inspiration.html">Inspiration.</a></li>
+          <li><a href="logIn.html">Your Blogs.</a></li>
+          <li><a href="gallery.html">Gallery.</a></li>
+          <li><a href="logIn.html">Create.</a></li>
+          <li><button class="login-button"><a href="logIn.html">Log In</a></button></li>
+       </ul>
+     
+      </div>
+        
+       <div>
+         <button id="bigLog">Sign Up</button>
+       </div>
+
+       <div id="login">
+        <form action="home.html" method="post"  onsubmit="return validForm()">
+          <div style="margin-bottom: 5%;">
+              <label for="name" style="color:white; font-size: 180%; margin-right: 5%;">Name:</label>
+              <input type="text" id="name" name="name">
+          </div>
+
+          <div style="margin-bottom: 5%;">
+            <label for="user" style="color:white; font-size: 180%; margin-right: 5%;">User:</label>
+            <input type="text" id="user" name="user">
+        </div>
+
+          <div style="margin-bottom: 5%;">
+            <label for="email" style="color:white; font-size: 180%; margin-right: 5%;">Email:</label>
+            <input type="text" id="email" name="email">
+        </div>
+
+          <div>
+              <label for="password" style="color:white;font-size: 180%; margin-right: 5%">Password:</label>
+              <input type="password" id="password" name="password">
+          </div>
+
+    
+    <button class="button" style="font-size: 120%; height: 20%; margin-left: 35%;" >Enter</button>
+    </form>
+  
+    </div>
+    <footer>
+      <div class="contact-info">
+        <p>Contact us:  <a href="mailto:odisseiahelp@odisseia.com">odisseiahelp@odisseia.com</a></p>
+       
+      </div>
+    
+      <div class="copyright">
+        &copy; 2023 Odisseia. Sofía Alejandra Cadenas Fernández. All rights reserved.
+        <p>This site uses cookies. Please refer to our <a href="home.html" onclick="error()">cookies policy</a></p>
+      </div>
+      <div class="last-updated" id="lastupdated">Last updated:</div>
+    
+    </footer>
+    </div>
+    
+    <script>
+     
+      updateDate();
+    </script>
+</body>
+</html>

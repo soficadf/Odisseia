@@ -27,9 +27,7 @@
     font-size:larger;
     line-height: 150%;
     height: 45%;
-    color:#8D7268;
     box-shadow: 0 0 20px rgba(0,0,0,0.2);
-    font-family:'Rockwell', sans-serif;
 }
 
 #introD{
@@ -48,7 +46,6 @@
     font-family: 'Segoe Script', cursive;
     font-size: 100%;
     width: 40%;
-   
     margin-top: -8%;
  
 }
@@ -56,8 +53,6 @@
 .box2 img{
     width: 120%;
     margin-top: 12%;
-    
-   
 }
 
 .box2 h1{
@@ -77,13 +72,11 @@
     margin-bottom: 0%;
     font-size:larger;
     line-height: 170%;
-    font-family:'Rockwell', sans-serif;
-    color:#8D7268;
     width: 80%;
     background-color:rgba(250, 250, 250, 0.3) ;
     padding-right: 5%;
-   display: flex;
-   box-shadow: 0 0 20px rgba(0,0,0,0.2);
+    display: flex;
+    box-shadow: 0 0 20px rgba(0,0,0,0.2);
 }
 
 .days h1{
@@ -206,9 +199,7 @@ tbody td:hover {
         margin:3%;
         overflow:hidden;
         border-radius:5px;
-        box-shadow: 0 0 20px rgba(0,0,0,0.3);
-        
-        
+        box-shadow: 0 0 20px rgba(0,0,0,0.3);    
   }
 
   .gallery h1
@@ -222,20 +213,7 @@ tbody td:hover {
     transform: scale(1.7);
 }
 
-  .informacion {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    opacity: 0;
-    transition: opacity 0.3s ease-in-out;
-    text-align: center;
-    color: white;
-}
 
-.imagen-container:hover .informacion {
-    opacity: 1;
-}
 
 #icon{
     display: none;

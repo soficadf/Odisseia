@@ -124,8 +124,16 @@
     transform: scale(1.2);
 }
 
+#back-to-top{
+    margin-left: 90%; width: 5%;
+}
+
 
 @media screen and (max-width: 940px){
+
+    #back-to-top{
+        display: none;
+    }
 
     .welcome{
         width: 100%;

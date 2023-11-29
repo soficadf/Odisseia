@@ -1,202 +1,298 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Odisseia_Blog</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <link rel="stylesheet" type="text/css" href="style_blog.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Segoe+Script&display=swap">
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link rel="stylesheet" type="text/css" href="style_blog.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Segoe+Script&display=swap"
+    />
 
-
-    <script src="script.js"> getDate() </script>
+    <script src="script.js">
+      getDate()
+    </script>
   </head>
-<body>
+  <body>
     <div>
-        <div class="navbar" style="position: static;">
-          <ul>
-            <li><a href="index.html" style="display: contents;"><img src="img/logo.png" alt="Logo" /></a></li>
-            <li> <a href="index.html">Home.</a></li>
-            <li><a href="logIn.html">Your Blogs.</a></li>
-            <li> <button class="login-button"><a href="logIn.html">Add</a></button></li>
-            <li><button class="login-button"><a href="logIn.html">Share</a></button>
-            </li>
-          </ul> 
+      <div class="navbar" style="position: static">
+        <ul>
+          <li>
+            <a href="index.html" style="display: contents"
+              ><img src="img/logo.png" alt="Logo"
+            /></a>
+          </li>
+          <li><a href="index.html">Home.</a></li>
+          <li><a href="logIn.html">Your Blogs.</a></li>
+          <li>
+            <button class="login-button"><a href="logIn.html">Add</a></button>
+          </li>
+          <li>
+            <button class="login-button"><a href="logIn.html">Share</a></button>
+          </li>
+        </ul>
+      </div>
+
+      <div class="title">
+        <img src="img/iconBP.png" />
+        <h1>Budapest</h1>
+      </div>
+
+      <div class="main">
+        <div class="intro" id="introD">
+          <h3>Some interesting facts...</h3>
+          <p>
+            Budapest is the capital and largest city of Hungary, situated in the
+            central part of the country. It is often referred to as the "Paris
+            of the East" due to its stunning architecture, rich history, and
+            vibrant cultural scene. Budapest is located along the Danube River,
+            which divides the city into two parts: Buda and Pest. Buda is
+            situated on the west bank, while Pest is on the east bank.
+          </p>
+          <img src="img/mapBP.png" alt="map" />
         </div>
 
-        <div class="title">
-          <img src="img/iconBP.png">
-          <h1>Budapest</h1>
-        </div>
-
-        <div class="main">
-          <div class="intro" id="introD">
-             <h3>Some interesting facts...</h3>
-             <p> Budapest is the capital and largest city of Hungary, situated in the central part of the country. 
-             It is often referred to as the "Paris of the East" due to its stunning architecture, rich history, and vibrant cultural scene.
-             Budapest is located along the Danube River, which divides the city into two parts: Buda and Pest. 
-             Buda is situated on the west bank, while Pest is on the east bank. </p>
-             <img src="img/mapBP.png" alt="map">
-           </div>
-          
-
-           <div class="box2">
-             <img src="img/parlament.png" alt="Parliament">
-             <h1 >"In a city full of wonders, Budapest's Parliament is my favorite love story"</h1>
-             <div>
-               <iframe id="song" src="https://open.spotify.com/embed/track/3U5JVgI2x4rDyHGObzJfNf?utm_source=generator"   frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
-             </div>
-        
-            </div>
-        </div>
-        <div id="icon">
-        <img src="img/info.png" onclick="showIntro()" >
-        <p style="padding-top: 3%;">More information</p>
-        </div>
-        <div class="days">
-         
-          <img src="img/arrowReverse.png" onclick="changeContentReverse()" id="leftA">
-        
-           <div id="content1" class="contentz visible">
-
-             <img src="img/breakfast.png" alt="breakfast">
-             <h1>Beginning of the Journey</h1>
-             <p>Our journey began by waking up very early to catch the train to Budapest. If I remember correctly, it was about a 5-hour journey.
-              On the way, we passed through Vienna's central station, and we felt like getting off there. We found that having breakfast on the train was very affordable, and I ordered a cake that was delicious. It helped us recharge our energy.</p>
-            <p>The weather offered only sunny days; even the sweater was unnecessary. As soon as we arrived, we saw the central market and had lunch in the square across the street. We were really excited for this city!!!</p>
-            <br>
+        <div class="box2">
+          <img src="img/parlament.png" alt="Parliament" />
+          <h1>
+            "In a city full of wonders, Budapest's Parliament is my favorite
+            love story"
+          </h1>
+          <div>
+            <iframe
+              id="song"
+              src="https://open.spotify.com/embed/track/3U5JVgI2x4rDyHGObzJfNf?utm_source=generator"
+              frameborder="0"
+              allowfullscreen=""
+              allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+              loading="lazy"
+            ></iframe>
           </div>
-
-           <div id="content2" class="contentz">
-             <img src="img/church.png" alt="cathedral">
-             <h1>Walk without a destination</h1>
-             <p>Upon arrival, we dropped off our luggage and got ready for a walk. We explored the city until we reached Andrássy Avenue, the street lined with Budapest's most luxurious shops. On the way, we saw St. Stephen's Basilica, the one in the picture; it's impressive. As we walked, we eventually arrived at the Parliament building, now illuminated in the evening, and it left us in awe. </p>
-             <p> From the Parliament, you can see the Danube River and the other side of the river; the nighttime view is breathtaking. The bridges are all lit up, and there are many boats sailing by. 
-              On the banks of the Danube, there is a memorial to the Jews who suffered an unjust death in this place. It consists of metal shoes placed at the level of the Parliament.</p>
-            <br>
-            </div>
-
-          <div id="content3" class="contentz">
-            <img src="img/sinagoga.png" alt="sinagoga">
-            <h1>Historical Visit</h1>
-            <p>The next day, we woke up early for a guided tour of the Jewish quarter. Budapest is home to the world's second-largest synagogue, the Dohány Street Synagogue.  We felt a mix of emotions as we walked around these streets and learned about their sad history. The ghetto only lasted one winter, which happened to be the last time the Danube River froze. Because of the extremely cold weather and tough living conditions, many Jewish people lost their lives.
-              But even in those difficult times, there were some good people in Budapest who helped Jews escape, like the Spanish diplomat Ángel Sanz-Briz. Today, there's only a small part of the wall left standing to remind us of this sad past and to make sure it never happens again </p>
-          <br>
-            </div>
-
-
-          <div id="content4" class="contentz">
-            <img src="img/thermas.png" >
-            <h1>Relaxing Time</h1>  
-            <p> After our emotionally intense visit, we decided it was time to unwind and release tension. We headed towards Budapest's famous Széchenyi Thermal Bath. You can't claim to have visited Budapest without spending an afternoon relaxing in its thermal waters. On our way to the bath, we also saw Heroes' Square and Vajdahunyad Castle, along with its natural park – a walk you definitely shouldn't miss.</p>  
-            <p>We spent the entire afternoon at the thermal baths, trying out their different pools with varying temperatures, saunas, and their outdoor pool. It was very relaxing.</p>
-          </div>
-
-
-          <div id="content5" class="contentz">
-            <img src="img/karaoke.png" >
-            <h1>Karaoke Night</h1>  
-            <p> In the evening, we decided to go out and experience a bit of Budapest's nightlife. We ended up in a karaoke singing hits from the pop music of the 2000s. It was an unforgettable night, and we had a lot of fun. After that night, we couldn't stop singing "Unwritten" throughout the entire trip.</p>
-          <p>The place is located in the Jewish quarter, in an alley full of pubs and bars. It's a very fun place but quite expensive if you just want to drink. A beer cost us 6 euros.</p>
-          </div>
-
-          <div id="content6" class="contentz">
-            <video controls id="video" >
-              <source src="budapest/IMG_1740.mp4" type="video/mp4">
-              your computer can not reproduce this video.
-            </video> 
-
-            <h1>Buda's Golden Hour</h1>  
-            <p>
-              On the third day, we woke up more leisurely and went to have breakfast at a café. We decided to explore the part of the city called Buda, on the other side of the river. We took the opportunity to cross the Chain Bridge, which was incredible. We visited Buda Castle, and you can go up for free using some elevators on the left; it's not necessary to pay for the funicular.</p><p> Later, we went to Matthias Church, and we were impressed by its roof; it's beautiful. We also saw the sunset from Fisherman's Bastion. For me, it was the highlight of the trip—the sky was clear, and the sunset was stunning. I recommend paying the entrance fee to go up and enjoy the view from above. Additionally, for students, it's only one euro.</p>
-          </div>
-
-          <div id="content7" class="contentz">
-            <img src="img/ruinBar.png"  >
-            <h1>Night Among Ruins</h1>  
-            <p> The last night, we wanted to go to a ruin bar, which are very famous in Budapest, given the many buildings in ruins and abandoned. The idea was to create a decor with a senseless theme of a site in ruins, and it was a hit. We went to the oldest one, Szimpla Kert. We had a great time; the decoration is truly surprising, and the music is not bad at all. You only pay for what you consume, and they have reasonable prices. It's another must-visit if you're in Budapest.</p>
-          </div>
-
-          <img src="img/arrow.png" onclick="changeContent()"  id="rightA">
-       
         </div>
-        <div class="tableContainer">
-          <h1>Daily Planning</h1>
-          <table>
-            <thead>
-              <tr>
-                <th>Day 1</th>
-                <th>Day 2</th>
-                <th>Day 3</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td>Andrássy Avenue</td>
-                <td>Jewish quarter.</td>
-                <td>Chain Bridge</td>
-                
-              </tr>
-              <tr>
-                <td> St. Stephen's Basilica</td>
-                <td>Vajdahunyad Castle</td>
-                <td>Buda Castle</td>
-               
-              </tr>
-              <tr>
-                <td>Parliament building</td>
-                <td>Széchenyi Thermal Bath</td>
-                <td>Fisherman's Bastion</td>
-                
-              </tr>
-            </tbody>
-          </table>
+      </div>
+      <div id="icon">
+        <img src="img/info.png" onclick="showIntro()" />
+        <p style="padding-top: 3%">More information</p>
+      </div>
+      <div class="days">
+        <img
+          src="img/arrowReverse.png"
+          onclick="changeContentReverse()"
+          id="leftA"
+        />
+
+        <div id="content1" class="contentz visible">
+          <img src="img/breakfast.png" alt="breakfast" />
+          <h1>Beginning of the Journey</h1>
+          <p>
+            Our journey began by waking up very early to catch the train to
+            Budapest. If I remember correctly, it was about a 5-hour journey. On
+            the way, we passed through Vienna's central station, and we felt
+            like getting off there. We found that having breakfast on the train
+            was very affordable, and I ordered a cake that was delicious. It
+            helped us recharge our energy.
+          </p>
+          <p>
+            The weather offered only sunny days; even the sweater was
+            unnecessary. As soon as we arrived, we saw the central market and
+            had lunch in the square across the street. We were really excited
+            for this city!!!
+          </p>
+          <br />
         </div>
 
+        <div id="content2" class="contentz">
+          <img src="img/church.png" alt="cathedral" />
+          <h1>Walk without a destination</h1>
+          <p>
+            Upon arrival, we dropped off our luggage and got ready for a walk.
+            We explored the city until we reached Andrássy Avenue, the street
+            lined with Budapest's most luxurious shops. On the way, we saw St.
+            Stephen's Basilica, the one in the picture; it's impressive. As we
+            walked, we eventually arrived at the Parliament building, now
+            illuminated in the evening, and it left us in awe.
+          </p>
+          <p>
+            From the Parliament, you can see the Danube River and the other side
+            of the river; the nighttime view is breathtaking. The bridges are
+            all lit up, and there are many boats sailing by. On the banks of the
+            Danube, there is a memorial to the Jews who suffered an unjust death
+            in this place. It consists of metal shoes placed at the level of the
+            Parliament.
+          </p>
+          <br />
+        </div>
 
+        <div id="content3" class="contentz">
+          <img src="img/sinagoga.png" alt="sinagoga" />
+          <h1>Historical Visit</h1>
+          <p>
+            The next day, we woke up early for a guided tour of the Jewish
+            quarter. Budapest is home to the world's second-largest synagogue,
+            the Dohány Street Synagogue. We felt a mix of emotions as we walked
+            around these streets and learned about their sad history. The ghetto
+            only lasted one winter, which happened to be the last time the
+            Danube River froze. Because of the extremely cold weather and tough
+            living conditions, many Jewish people lost their lives. But even in
+            those difficult times, there were some good people in Budapest who
+            helped Jews escape, like the Spanish diplomat Ángel Sanz-Briz.
+            Today, there's only a small part of the wall left standing to remind
+            us of this sad past and to make sure it never happens again
+          </p>
+          <br />
+        </div>
 
+        <div id="content4" class="contentz">
+          <img src="img/thermas.png" />
+          <h1>Relaxing Time</h1>
+          <p>
+            After our emotionally intense visit, we decided it was time to
+            unwind and release tension. We headed towards Budapest's famous
+            Széchenyi Thermal Bath. You can't claim to have visited Budapest
+            without spending an afternoon relaxing in its thermal waters. On our
+            way to the bath, we also saw Heroes' Square and Vajdahunyad Castle,
+            along with its natural park – a walk you definitely shouldn't miss.
+          </p>
+          <p>
+            We spent the entire afternoon at the thermal baths, trying out their
+            different pools with varying temperatures, saunas, and their outdoor
+            pool. It was very relaxing.
+          </p>
+        </div>
 
-<div class="gallery">
-  <h1>Photo Gallery</h1>
-   <img src='budapest/IMG_1130.JPEG' class="photo" alt=''>
-  <img src='budapest/IMG_1162.JPEG' class="photo" alt=''>
-  <img src='budapest/IMG_1182.jpeg' class="photo" alt=''>
-  <img src='budapest/IMG_1194.jpeg' class="photo" alt=''>
-  <img src='budapest/IMG_1218.JPEG' class="photo" alt=''>
-  <img src='budapest/IMG_1231.JPEG' class="photo" alt=''>
-  <img src='budapest/IMG_1238.JPEG' class="photo" alt=''>
-  <img src='budapest/IMG_1290.JPEG' class="photo" alt=''>
-  <img src='budapest/IMG_1309.JPEG' class="photo" alt=''>
-  <img src='budapest/IMG_1597.JPEG' class="photo" alt=''>
-  <img src='budapest/IMG_1705.JPEG' class="photo" alt=''>
-  <img src='budapest/IMG_1669.JPEG' class="photo" alt=''>
-  <img src='budapest/IMG_1715.JPEG' class="photo" alt=''>
-  <img src='budapest/IMG_1785.JPEG' class="photo" alt=''>
-  <img src='budapest/IMG_1815.JPEG' class="photo" alt=''>
-  <img src='budapest/IMG_1830.jpeg' class="photo" alt=''>
-  
- 
-</div>
-<footer>
- 
-  
-  <div class="contact-info">
-    <p>Contact us:  <a href="mailto:odisseiahelp@odisseia.com">odisseiahelp@odisseia.com</a></p>
-   
-  </div>
+        <div id="content5" class="contentz">
+          <img src="img/karaoke.png" />
+          <h1>Karaoke Night</h1>
+          <p>
+            In the evening, we decided to go out and experience a bit of
+            Budapest's nightlife. We ended up in a karaoke singing hits from the
+            pop music of the 2000s. It was an unforgettable night, and we had a
+            lot of fun. After that night, we couldn't stop singing "Unwritten"
+            throughout the entire trip.
+          </p>
+          <p>
+            The place is located in the Jewish quarter, in an alley full of pubs
+            and bars. It's a very fun place but quite expensive if you just want
+            to drink. A beer cost us 6 euros.
+          </p>
+        </div>
 
-  <div class="copyright">
-    &copy; 2023 Odisseia. Sofía Alejandra Cadenas Fernández. All rights reserved.
-    <p>This site uses cookies. Please refer to our <a href="index.html" onclick="onProgress()">cookies policy</a></p>
-  </div>
-  <div class="last-updated" id="lastupdated">Last updated:</div>
+        <div id="content6" class="contentz">
+          <video controls id="video">
+            <source src="budapest/IMG_1740.mp4" type="video/mp4" />
+            your computer can not reproduce this video.
+          </video>
 
-</footer>
-</div>
+          <h1>Buda's Golden Hour</h1>
+          <p>
+            On the third day, we woke up more leisurely and went to have
+            breakfast at a café. We decided to explore the part of the city
+            called Buda, on the other side of the river. We took the opportunity
+            to cross the Chain Bridge, which was incredible. We visited Buda
+            Castle, and you can go up for free using some elevators on the left;
+            it's not necessary to pay for the funicular.
+          </p>
+          <p>
+            Later, we went to Matthias Church, and we were impressed by its
+            roof; it's beautiful. We also saw the sunset from Fisherman's
+            Bastion. For me, it was the highlight of the trip—the sky was clear,
+            and the sunset was stunning. I recommend paying the entrance fee to
+            go up and enjoy the view from above. Additionally, for students,
+            it's only one euro.
+          </p>
+        </div>
 
-<script>
-  updateDate();
-</script>
+        <div id="content7" class="contentz">
+          <img src="img/ruinBar.png" />
+          <h1>Night Among Ruins</h1>
+          <p>
+            The last night, we wanted to go to a ruin bar, which are very famous
+            in Budapest, given the many buildings in ruins and abandoned. The
+            idea was to create a decor with a senseless theme of a site in
+            ruins, and it was a hit. We went to the oldest one, Szimpla Kert. We
+            had a great time; the decoration is truly surprising, and the music
+            is not bad at all. You only pay for what you consume, and they have
+            reasonable prices. It's another must-visit if you're in Budapest.
+          </p>
+        </div>
 
-</body>
+        <img src="img/arrow.png" onclick="changeContent()" id="rightA" />
+      </div>
+      <div class="tableContainer">
+        <h1>Daily Planning</h1>
+        <table>
+          <thead>
+            <tr>
+              <th>Day 1</th>
+              <th>Day 2</th>
+              <th>Day 3</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Andrássy Avenue</td>
+              <td>Jewish quarter.</td>
+              <td>Chain Bridge</td>
+            </tr>
+            <tr>
+              <td>St. Stephen's Basilica</td>
+              <td>Vajdahunyad Castle</td>
+              <td>Buda Castle</td>
+            </tr>
+            <tr>
+              <td>Parliament building</td>
+              <td>Széchenyi Thermal Bath</td>
+              <td>Fisherman's Bastion</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="gallery">
+        <h1>Photo Gallery</h1>
+        <img src="budapest/IMG_1130.JPEG" class="photo" alt="" />
+        <img src="budapest/IMG_1162.JPEG" class="photo" alt="" />
+        <img src="budapest/IMG_1182.jpeg" class="photo" alt="" />
+        <img src="budapest/IMG_1194.jpeg" class="photo" alt="" />
+        <img src="budapest/IMG_1218.JPEG" class="photo" alt="" />
+        <img src="budapest/IMG_1231.JPEG" class="photo" alt="" />
+        <img src="budapest/IMG_1238.JPEG" class="photo" alt="" />
+        <img src="budapest/IMG_1290.JPEG" class="photo" alt="" />
+        <img src="budapest/IMG_1309.JPEG" class="photo" alt="" />
+        <img src="budapest/IMG_1597.JPEG" class="photo" alt="" />
+        <img src="budapest/IMG_1705.JPEG" class="photo" alt="" />
+        <img src="budapest/IMG_1669.JPEG" class="photo" alt="" />
+        <img src="budapest/IMG_1715.JPEG" class="photo" alt="" />
+        <img src="budapest/IMG_1785.JPEG" class="photo" alt="" />
+        <img src="budapest/IMG_1815.JPEG" class="photo" alt="" />
+        <img src="budapest/IMG_1830.jpeg" class="photo" alt="" />
+      </div>
+      <footer>
+        <div class="contact-info">
+          <p>
+            Contact us:
+            <a href="mailto:odisseiahelp@odisseia.com"
+              >odisseiahelp@odisseia.com</a
+            >
+          </p>
+        </div>
+
+        <div class="copyright">
+          &copy; 2023 Odisseia. Sofía Alejandra Cadenas Fernández. All rights
+          reserved.
+          <p>
+            This site uses cookies. Please refer to our
+            <a href="index.html" onclick="onProgress()">cookies policy</a>
+          </p>
+        </div>
+        <div class="last-updated" id="lastupdated">Last updated:</div>
+      </footer>
+    </div>
+
+    <script>
+      updateDate();
+    </script>
+  </body>
 </html>

@@ -1,69 +1,88 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Odisseia_Gallery</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <link rel="stylesheet" type="text/css" href="style_gallery.css">
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link rel="stylesheet" type="text/css" href="style_gallery.css" />
 
-    <script src="script.js"> getDate() </script>
-</head>
-<body>
+    <script src="script.js">
+      getDate()
+    </script>
+  </head>
+  <body>
     <div>
       <div class="navbar">
-    
         <ul>
-          <li><a href="index.html"><img src="img/logo.png" alt="Logo" ></a></li>
+          <li>
+            <a href="index.html"><img src="img/logo.png" alt="Logo" /></a>
+          </li>
           <li><a href="inspiration.html">Inspiration.</a></li>
           <li><a href="logIn.html">Your Blogs.</a></li>
           <li><a href="gallery.html">Gallery.</a></li>
           <li><a href="logIn.html">Create.</a></li>
-          <li><button class="login-button"><a href="logIn.html">Log In</a></button></li>
-       </ul>
-     
+          <li>
+            <button class="login-button">
+              <a href="logIn.html">Log In</a>
+            </button>
+          </li>
+        </ul>
       </div>
 
       <div class="content">
-        
-      <div class="boxTitle" style="margin-left:15%; margin-right:15%;">
-          <p style="margin-top:20% ;"> Dive into the <b>world of travel</b></p><p> Where do you <b>dream of exploring</b>, or what <b>hidden gem</b> do you long to <b>uncover </b>?</p>
-      </div>
+        <div class="boxTitle" style="margin-left: 15%; margin-right: 15%">
+          <p style="margin-top: 20%">Dive into the <b>world of travel</b></p>
+          <p>
+            Where do you <b>dream of exploring</b>, or what <b>hidden gem</b> do
+            you long to <b>uncover </b>?
+          </p>
+        </div>
 
-      <div class="bar">
-        <img  id="icon" src="img/lupa.png" alt="icon lupa" >
-        <input type="text" id="search" name="search">
-      </div>
-        
+        <div class="bar">
+          <img id="icon" src="img/lupa.png" alt="icon lupa" />
+          <input type="text" id="search" name="search" />
+        </div>
 
         <div class="box">
-          <a href="blog.html"> <img src="img/blogBP.png" alt="photo book Budapest" class="photo"></a>
-          <a href="blog.html" onclick= onProgress()> <img src="img/book2.png" alt="photo book Vienna"></a>
-          <a href="blog.html" onclick= onProgress()> <img src="img/book3.png" alt="photo book Krakow"></a>
-          <a href="blog.html" onclick= onProgress()> <img src="img/book4.png" alt="photo Wroclaw"></a>
-        </div> 
-    
-      </div>
-        <footer>
- 
-          <div class="contact-info">
-            <p>Contact us:  <a href="mailto:odisseiahelp@odisseia.com">odisseiahelp@odisseia.com</a></p>
-           
-          </div>
-        
-          <div class="copyright">
-            &copy; 2023 Odisseia. Sofía Alejandra Cadenas Fernández. All rights reserved.
-            <p>This site uses cookies. Please refer to our <a href="index.html" onclick="onProgress()">cookies policy</a></p>
-          </div>
-          <div class="last-updated" id="lastupdated">Last updated:</div>
-        
-        </footer>
+          <a href="blog.html">
+            <img src="img/blogBP.png" alt="photo book Budapest" class="photo"
+          /></a>
+          <a href="blog.html" onclick="onProgress()">
+            <img src="img/book2.png" alt="photo book Vienna"
+          /></a>
+          <a href="blog.html" onclick="onProgress()">
+            <img src="img/book3.png" alt="photo book Krakow"
+          /></a>
+          <a href="blog.html" onclick="onProgress()">
+            <img src="img/book4.png" alt="photo Wroclaw"
+          /></a>
         </div>
-        
-        <script>
-         
-          updateDate();
-        </script>
-    
-</body>
+      </div>
+      <footer>
+        <div class="contact-info">
+          <p>
+            Contact us:
+            <a href="mailto:odisseiahelp@odisseia.com"
+              >odisseiahelp@odisseia.com</a
+            >
+          </p>
+        </div>
+
+        <div class="copyright">
+          &copy; 2023 Odisseia. Sofía Alejandra Cadenas Fernández. All rights
+          reserved.
+          <p>
+            This site uses cookies. Please refer to our
+            <a href="index.html" onclick="onProgress()">cookies policy</a>
+          </p>
+        </div>
+        <div class="last-updated" id="lastupdated">Last updated:</div>
+      </footer>
+    </div>
+
+    <script>
+      updateDate();
+    </script>
+  </body>
 </html>

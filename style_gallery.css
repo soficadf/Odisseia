@@ -23,9 +23,7 @@
       transition: transform 0.3s ease-in-out;
    }
 
-   .box a{
-      
-   }
+  
 
    .box img:hover{
     transform: scale(1.2);
